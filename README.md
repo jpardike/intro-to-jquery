@@ -180,7 +180,7 @@ The most basic concept of jQuery is to "select some elements and do something wi
 
 You can use any of the CSS selectors you're familiar with to select an element:
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4747/Slide-16-Chart.svg">
+<img src="assets/Slide-16-Chart.svg">
 
 #### Independent Practice - Turn and Talk
 
@@ -317,7 +317,7 @@ First, let's take a look at the ways we can update and change content.
 
 #### `html()`
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/5103/Screen_Shot_2016-06-15_at_11.08.31_AM.png">
+<img src="assets/Screen_Shot_2016-06-15_at_11.08.31_AM.png">
 
 
 The `html()` method can be used to get or set the HTML content.
@@ -338,7 +338,7 @@ The `html()` method can be used to get or set the HTML content.
 
 #### `text()`
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4758/Slide-10-Text.svg">
+<img src="assets/Slide-10-Text.svg">
 
 - Get content: We can use the `text()` method to retrieve text from a jQuery selection.
 	- It will return the text content of every element that matches the selection, along with the text of any descendants.
@@ -390,7 +390,7 @@ We'll cover the following four methods for adding elements:
 #### `before()`
 First, the `before()` method.
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4760/Slide-17-Before.svg">
+<img src="assets/Slide-17-Before.svg">
 
 The `before()` method can be used to insert HTML content _before_ the selected element or elements. For example, the following JavaScript code:
 
@@ -415,7 +415,7 @@ Will result in this:
 #### `after()`
 Next, the `after()` method.
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4761/Slide-19-After.svg">
+<img src="assets/Slide-19-After.svg">
 
 The `after()` method can be used to insert HTML content _after_ the selected element or elements. For example, the following JS code:
 
@@ -442,7 +442,7 @@ Will have the following results:
 
 Now, let's look at the `append()` method.
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4762/Slide-21-Append.svg">
+<img src="assets/Slide-21-Append.svg">
 
 This method inserts HTML content _inside_ the selected element or elements, right _before_ the closing tag. So the following code:
 
@@ -467,7 +467,7 @@ Would have the following effects:
 #### `prepend()`
 And finally, the `prepend()` method.
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4763/Slide-23-Prepend.svg">
+<img src="assets/Slide-23-Prepend.svg">
 
 
 This method inserts HTML content _inside_ the selected element or elements, right _after_ the opening tag. So this code:
@@ -495,7 +495,7 @@ As you can see, when using these four methods, the question of _what_ gets inser
 Take a look at this diagram, which shows where the methods insert our example's new content:
 
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4717/before_after_append_prepend.png">
+<img src="assets/before_after_append_prepend.png">
 
 > Check: Think about how facebook statuses work. When we add a new status, does it go to the bottom of the list? Or is it right at the top? Which of these methods to insert new content do you think they are using here?
 
@@ -577,7 +577,7 @@ We can add new attributes to elements, or access and modify the contents of exis
 
 Let's take a look at some of the methods we can use to get and set attribute values for this site. These methods will allow us to update the styles and content dynamically.
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4765/Slide-7-attr.svg">
+<img src="assets/Slide-7-attr.svg">
 
 #### `attr()`
 
@@ -623,7 +623,7 @@ We can use this method to add or update the value of any attribute.
 #### `removeAttr()`
 Now that we're familiar with how we can add attributes, let's take a look at removing attributes using the `removeAttr()` method.
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4766/Slide-11-removeAttr.svg">
+<img src="assets/Slide-11-removeAttr.svg">
 
 We can use the `removeAttr()` method to remove an attribute and its value. We just specify the name of the attribute that we want to remove in parentheses:
 
@@ -648,7 +648,7 @@ And just like that, the `id` attribute on our `ul` is gone.
 
 jQuery has special methods for simplifying tasks that developers are required to do repeatedly.
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4767/Slide-13-addClass.svg">
+<img src="assets/Slide-13-addClass.svg">
 
 
 The `addClass()` method lets us add a new value to the class attribute. It does not override any other classes that might be on the same element:
@@ -669,7 +669,7 @@ This will then apply any styles that we have added in our CSS stylesheet that ar
 #### `removeClass()`
 Now let's take a look at a related method — `removeClass()`.
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4768/Slide-16-removeClass.svg">
+<img src="assets/Slide-16-removeClass.svg">
 
 
 We can use the `removeClass()` method to remove a value from the class attribute. It will leave any other class names intact and will only remove the value we specify.
@@ -689,7 +689,7 @@ $('li').removeClass('complete');
 
 Note that when using the `removeClass()`/`addClass()` methods, the name of the class does not include a period (`.`).
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4769/Slide-19-No-Period.svg">
+<img src="assets/Slide-19-No-Period.svg">
 
 
 
@@ -702,7 +702,7 @@ Finally, let's take a look at the `css()` method.
 
 We can use the `css()` method to set the value for a CSS property.
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4771/Slide-21-css.svg">
+<img src="assets/Slide-21-css.svg">
 
 What does this look like?
 
@@ -715,7 +715,7 @@ $('li:nth-child(n+4)').css('background-color', 'green');
 Here we are updating the background color of the last two list items to green.
 
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4722/css.png">
+<img src="assets/css.png">
 
 We can update any css properties using the `css()` method.
 
@@ -724,7 +724,7 @@ We can update any css properties using the `css()` method.
 
 Let's review the different methods that can be used to update get and set attributes using jQuery:
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4772/Slide-23-Chart.svg">
+<img src="assets/Slide-23-Chart.svg">
 
 Follow the instructions under **Part 1** in [starter\_code/jquery\_practice/readme.md](starter_code/jquery_practice/readme.md).
 
@@ -735,7 +735,7 @@ Next, let's take a look at some of jQuery's methods that will allow us to add an
 #### `hide()` and `show()`
 Let's start with `hide()` and `show()` methods:
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/5178/slide-2-list.svg">
+<img src="assets/slide-2-list.svg">
 
 As you can probably guess, we can use the `hide()` method to hide content and the `show()` method to show content.
 
@@ -745,7 +745,7 @@ $('button').on('click', function () {
 });
 ```
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/4949/8AAAACBISPqVkAOw__.gif">
+<img src="assets/8AAAACBISPqVkAOw__.gif">
 
 So what goes within the parentheses after the hide method?
 
@@ -756,7 +756,7 @@ Although we _can_ pass in an animation speed as an argument for the `show()` and
 
 Next, let's explore some of the methods we can use to fade content in and out of our page:
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/5184/slide-15-fade_.svg">
+<img src="assets/slide-15-fade_.svg">
 
 
 The `fadeIn()` method is used to fade in hidden elements, and the `fadeOut()` method is used to fade out elements that are currently displayed.
@@ -810,7 +810,7 @@ In the above example, We can keep clicking on the button to continuously fade th
 #### `slideUp()` and `slideDown()`
 Now let's look at some methods we can use to slide elements up and down:
 
-<img src="http://circuits-assets.generalassemb.ly/prod/asset/5191/slide-32-slide.svg">
+<img src="assets/slide-32-slide.svg">
 
 The `slideUp()` method uses a sliding motion to hide selected elements, whereas the `slideDown()` method uses a sliding motion to reveal elements hidden on the page.
 
