@@ -24,7 +24,7 @@
 
 ---
 <a name="opening"></a>
-## Opening (< .)
+## Opening   
 - Review current lesson objectives.
 
 In the last lesson, we took a look at the difference between using the jQuery library and Vanilla JavaScript.
@@ -509,7 +509,7 @@ Spend a few minutes looking up the following jQuery methods in the [jQuery Docum
 
 How do these methods differ from the `append()` and `prepend()` methods?
 
-## Independent Practice - My Blawg (10 minutes)
+## Independent Practice - My Blawg
 
 Perform the following steps in the `main.js` file in the [My Blawg](starter_code/my_blawg) project.
 
@@ -876,7 +876,7 @@ Follow the instructions under **Part 2** in [starter\_code/jquery\_practice/read
 ***
 
 <a name="conclusion"></a>
-## Conclusion (< .)
+## Conclusion   
 - Review learning objectives.
 
 In this lesson, we've covered quite a bit of content.
