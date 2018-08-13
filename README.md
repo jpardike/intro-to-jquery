@@ -40,7 +40,7 @@ We'll also take a look at how we can add event handlers using jQuery.
 
 There are two ways to go about including jQuery on a website.
 
-- In both cases, we include the jQuery script file (`jquery-2.1.4.js`) as we would our usual `main.js` file using a `<script>` element.
+- In both cases, we include the jQuery script file (`jquery-3.3.1.js`) as we would our usual `main.js` file using a `<script>` element.
 
 
 #### Download
