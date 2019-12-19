@@ -17,7 +17,6 @@
 ### STUDENT PRE-WORK
 *Before this lesson, you should already be able to:*
 
-- Use Vanilla JavaScript to manipulate the DOM.
 - Explain CSS selectors.
 - Differentiate between the jQuery library and the JavaScript language, and be able to list the benefits of using jQuery vs. Vanilla JavaScript.
 
