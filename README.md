@@ -27,8 +27,6 @@
 ## Opening   
 - Review current lesson objectives.
 
-In the last lesson, we took a look at the difference between using the jQuery library and Vanilla JavaScript.
-
 In this lesson, we'll learn how to use jQuery to "manipulate the DOM" &mdash; or _update_ elements on the page.
 
 We'll also take a look at how we can add event handlers using jQuery.
